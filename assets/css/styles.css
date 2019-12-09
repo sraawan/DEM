@@ -1,0 +1,135 @@
+body{
+  font-family: 'Open Sans', sans-serif !important;
+  padding-top: 100px;
+}
+.hero-wrap-image {
+  position: relative;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.hero-wrap-image-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.horizontal-scroll {
+  background-color: transparent;
+  overflow: hidden;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 30px 0;
+}
+
+.item {
+  border: 1px solid #333;
+  display: inline-block;
+  background-color: #F5F5F5;
+  text-align: center;
+  padding: 0px;
+  margin: 0 20px 0 0;
+  width: 200px;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  width: 0 !important
+}
+
+.navbar-custom {
+  background-color: #202426;
+}
+
+@media (min-width: 1440px) {
+  .navbar-custom {
+    height: 100px;
+  }
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .navbar-custom .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .navbar-custom .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+  }
+}
+
+.scrolled {
+  transition: 0.3s;
+}
+
+.navbar-custom.navbar-expand-xl .navbar-nav .nav-item {
+  margin: 0 10px;
+}
+
+.navbar-toggler {
+  z-index: 999999;
+  position: relative;
+  padding-left: 1.25em;
+}
+
+.navbar-toggler.navbar-toggler:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 30px;
+  height: 2px;
+  background: #fff;
+  box-shadow: 0 10px 0 0 #fff, 0 20px 0 0 #fff;
+}
+
+.navbar-toggler.newopen:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 30px;
+  height: 2px;
+  background: #fff;
+  transform: rotate(45deg);
+  transform-origin: 0% 0%;
+  box-shadow: 0 10px 0 0 transparent, 0 -20px 0px 0px transparent;
+}
+
+.navbar-toggler.newopen:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 30px;
+  height: 2px;
+  background: transparent;
+  transform: rotate(-45deg);
+  transform-origin: 75% 0%;
+  box-shadow: -9px -2px 0px 0 #fff, 0 20px 0 0 transparent;
+}
+
+@media (max-width: 380px) {
+  .navbar-brand {
+    width: 240px;
+  }
+}
+
+@media (max-width: 1199.99px) {
+  .navbar-collapse.offcanvas-collapse ul li {
+    margin: 10px 20px !important;
+  }
+}
