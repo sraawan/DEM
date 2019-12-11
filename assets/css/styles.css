@@ -29,7 +29,7 @@ body{
   text-align: center;
   color: #fff;
   font-weight: 700;
-  font-size: 13px;
+  /* font-size: 13px; */
 }
 #image1{
     max-width: 60%;
@@ -54,19 +54,17 @@ body{
 }
 
 .item {
-  border: 1px solid #333;
   display: inline-block;
-  background-color: #F5F5F5;
   text-align: center;
   padding: 0px;
   margin: 0 20px 0 0;
-  width: 200px;
+  max-width: 200px;
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
 }
 
 .horizontal-scroll::-webkit-scrollbar {
-  width: 0; !important
+  width: 0 !important;
     
 }
 
