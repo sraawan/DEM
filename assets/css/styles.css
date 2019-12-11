@@ -84,6 +84,13 @@ body{
   -ms-overflow-style: none;
 }
 
+@media (max-height: 700px){
+  .item {
+    margin: 0 20px 0 0;
+    max-width: 100px;
+  }
+}
+
 .horizontal-scroll::-webkit-scrollbar {
   width: 0 !important;
     
