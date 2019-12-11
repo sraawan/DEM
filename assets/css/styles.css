@@ -3,6 +3,13 @@ body{
   padding-top: 85px;
 }
 
+.navbar-toggler-icon:focus{
+  outline: none !important;
+}
+.navbar-toggler:focus{
+  outline: none !important;
+}
+
 .app_wrap{
   height: calc(100vh - 70px);
 }
@@ -101,9 +108,10 @@ body{
 .item-text{
   font-size: 10px;
   color: #fff;
-  word-break: break-all;
   white-space: pre-wrap;
-  padding-top: 10px;;
+  padding-top: 10px;
+  text-align: left;
+
 }
 
 @media (max-height: 700px){
