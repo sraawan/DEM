@@ -2,15 +2,22 @@ body{
   font-family: 'Open Sans', sans-serif !important;
   padding-top: 85px;
 }
+
+.app_wrap{
+  height: calc(100vh - 70px);
+}
 @media (max-width: 767px){
   .heading-wrap h1{
-    font-size: 24px !important;
-  }
-  .heading-wrap h2{
     font-size: 20px !important;
   }
+  .heading-wrap h2{
+    font-size: 18px !important;
+  }
 }
-
+.heading-wrap{
+  position: relative;
+  top: 1vh;
+}
 .heading-wrap h1{
   font-size: 40px;
 }
@@ -26,7 +33,10 @@ body{
 .hero-wrap{
     margin-top: -30px;
 }
-
+.hero{
+  position: relative;
+  top: 4vh;
+}
 .hero-wrap-image {
   position: relative;
   display: flex;
@@ -43,12 +53,6 @@ body{
   text-shadow: 3px 5px 5px#000;
   /* font-size: 13px; */
 }
-#image1{
-    max-width: 60%;
-    
-    border-radius: 40px;
-        
-}
 
 .hero-wrap-image .wrap-img2{
     max-width:60%;
@@ -58,6 +62,16 @@ body{
 
 .horizontal-scroll-bg{
   background-color: #202020;
+  position: relative;
+  top: 2.5vh;
+}
+
+@media (min-height: 800px){
+  .horizontal-scroll-bg{
+    background-color: #202020;
+    position: relative;
+    bottom: -2.5vh;
+  }
 }
 .horizontal-scroll-title {
   color: #fff;
@@ -71,7 +85,7 @@ body{
   overflow-y: hidden;
   white-space: nowrap;
   margin-top: 0px;
-  padding: 10px 0px 10px;
+  padding: 3px 0px 3px;
 }
 
 .item {
@@ -84,9 +98,17 @@ body{
   -ms-overflow-style: none;
 }
 
+.item-text{
+  font-size: 10px;
+  color: #fff;
+  word-break: break-all;
+  white-space: pre-wrap;
+  padding-top: 10px;;
+}
+
 @media (max-height: 700px){
   .item {
-    margin: 0 20px 0 0;
+    margin: 0 10px 0 0;
     max-width: 100px;
   }
 }
