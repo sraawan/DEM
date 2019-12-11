@@ -1,6 +1,6 @@
 body{
   font-family: 'Open Sans', sans-serif !important;
-  padding-top: 85px;
+  padding-top: 65px;
 }
 
 .navbar-toggler-icon:focus{
@@ -11,7 +11,9 @@ body{
 }
 
 .app_wrap{
-  height: calc(100vh - 70px);
+  /* height: calc(100vh - 70px); */
+  top: -20px;
+  position: relative;
 }
 @media (max-width: 767px){
   .heading-wrap h1{
@@ -23,7 +25,6 @@ body{
 }
 .heading-wrap{
   position: relative;
-  top: 1vh;
 }
 .heading-wrap h1{
   font-size: 40px;
@@ -34,15 +35,11 @@ body{
 .title-sub{
     font-size: 1rem;
 }
-.text-center{
-    margin-top: -30px;
-}
 .hero-wrap{
     margin-top: -30px;
 }
 .hero{
   position: relative;
-  top: 4vh;
 }
 .hero-wrap-image {
   position: relative;
@@ -70,14 +67,12 @@ body{
 .horizontal-scroll-bg{
   background-color: #202020;
   position: relative;
-  top: 2.5vh;
 }
 
 @media (min-height: 800px){
   .horizontal-scroll-bg{
     background-color: #202020;
     position: relative;
-    bottom: -2.5vh;
   }
 }
 .horizontal-scroll-title {
