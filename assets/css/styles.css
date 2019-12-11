@@ -20,6 +20,7 @@ body{
   display: flex;
   align-content: center;
   align-items: center;
+ 
 }
 
 .hero-wrap-image-text {
@@ -32,13 +33,15 @@ body{
 }
 #image1{
     max-width: 60%;
-    height: auto;
+    
+    border-radius: 40px;
         
 }
 
 .hero-wrap-image .wrap-img2{
     max-width:60%;
     height: auto;
+    border-radius: 40px;
 }
 .horizontal-scroll {
   background-color: transparent;
