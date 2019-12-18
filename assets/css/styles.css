@@ -399,7 +399,11 @@ body{
 
   /* STEP-2 */
   #step-2{
-    height: calc(90vh - 100px);
+    height: calc(100vh - 70px);
+    background-image: url("../img/doorlock.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
   .step-2-wrap{
     max-width: 400px;
@@ -408,5 +412,48 @@ body{
 
   .step-2-title{
     color: #fff;
-    font-size: 20px;
+  }
+
+  .step-2-points{
+    color: #fff;
+    padding-left: 140px;
+    display: table;
+    padding-top: 20px;
+  }
+
+  .step-2-points-title{
+    display: table-cell;
+    font-size: 40px;
+    vertical-align: middle;
+    padding-right: 10px;
+  }
+  .step-2-points-desc{
+    display: table-cell;
+    padding-right: 20px;
+  }
+
+  .font-bold{
+    font-weight: 700;
+  }
+
+  .step-3-btn{
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+  }
+
+  .gardient-btn{
+    background-image: linear-gradient(270deg, #B406DA 0%, #A431D6 25%, #5347C8 65%, #2347C1 100%);
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 90px;
+    color: #fff;
+    text-decoration: none;
+    
+  }
+
+  .gardient-btn:hover{
+    background-image: linear-gradient(270deg, #B406DA 0%, #A431D6 25%, #5347C8 65%, #2347C1 100%);
+    color: #fff;
   }
