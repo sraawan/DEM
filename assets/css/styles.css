@@ -396,3 +396,17 @@ body{
 
 .f60 {
   font-size: 60px; }
+
+  /* STEP-2 */
+  #step-2{
+    height: calc(90vh - 100px);
+  }
+  .step-2-wrap{
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .step-2-title{
+    color: #fff;
+    font-size: 20px;
+  }

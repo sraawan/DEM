@@ -35,7 +35,7 @@
         </div>
     </nav>
 
-    <section>
+    <section id="step-1" class="d-none">
         <div class="container app_wrap pt-2">
             <!-- Heading -->
             <div class="text-center heading-wrap">
@@ -92,9 +92,25 @@
         </div>
     </section>
 
+    <section id="step-2" class="d-block my-4">
+        <div class="step-2-wrap">
+            <div class="step-2-title text-center">
+                After these 3 steps you will have a clearer view of what you need
+            </div>
+        </div>
+    </section>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <!-- <script>
+        $(document).ready(function(){
+            $(".hero-wrap-image").click(function(){
+                $("#step-1").addClass("d-none");
+                $("#step-2").removeClass("d-none");
+            })
+        });
+    </script> -->
 </body>
 
 </html>
